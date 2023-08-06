@@ -33,6 +33,7 @@ h1 {
     border-radius: 15px;
     padding-right: 10px;
     padding-left: 10px;
+    padding-bottom: -10px;
     border-style: solid;
     border-color: #4bffff;
     border-width: 5px;
