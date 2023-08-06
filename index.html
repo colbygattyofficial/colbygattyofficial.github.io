@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Calculator.io</title>
    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <h1>Calculator.io</h1>
 
 <form name="calculator">
-
+<div>
    <table class="table">
+      
       <tr>
          <td colspan="5">
             <input type="text" name="display" id="display" disabled> 
@@ -45,15 +43,15 @@
             <td><input type="button" class= "number" name="three" value="3" onclick="calculator.display.value += '3'"></td>
          
      </tr>
-      
-     <tr class="btmrow">
+     <tr class="">
       <td><input type="button" class="number" name="percent" value="%" onclick="calculator.display.value = eval(calculator.display.value /= '100')"></td>
       <td><input type="button" class= "number" name="zero" value="0" onclick="calculator.display.value += '0'"></td>
       <td><input type="button" class= "number" name="three" value="." onclick="calculator.display.value += '.'"></td>
-      <td><input type="button" class="equal" name="evaluate" value="=" onclick="calculator.display.value = eval(calculator.display.value)"></td>
+      
    </tr>
+   <td><input type="button" class="equal" name="evaluate" value="=" onclick="calculator.display.value = eval(calculator.display.value)"></td>
    </table>
-
+</div>
 </form> 
 </body>
 </html>
